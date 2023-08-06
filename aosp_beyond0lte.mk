@@ -47,6 +47,7 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 BUILD_USERNAME := FrEeRuNnEr4EvEr
 BUILD_HOSTNAME := Elixir
 TARGET_INCLUDE_STOCK_ACORE := false
+EXTRA_UDFPS_ANIMATIONS := true
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
